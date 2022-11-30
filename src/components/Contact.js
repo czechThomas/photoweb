@@ -11,7 +11,7 @@ const Contact =() => {
             <p>Objednávám již na druhou polovinu roku 2023!</p>
         </div>
         <div className='contact-form'>
-            <form class="contact-form" action="index.html" method="post">
+            <form className="contact-form" action="index.html" method="post">
                 <input type="text" className="contact-form-text" placeholder="Vaše jméno"></input>
                 <input type="email" className="contact-form-text" placeholder="Váš email"></input>
                 <input type="text" className="contact-form-text" placeholder="Váš telefon"></input>
