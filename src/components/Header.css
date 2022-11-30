@@ -1,0 +1,81 @@
+.sectioncontainer {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    min-height: 750px;
+    padding: 100px 5vw;
+    background-color: #02020270;
+}
+.mybgimage {
+    background-image: url("./images/295518001_5614912521874132_9026797892846284757_n.jpg");
+    background-repeat: no-repeat;
+    background-position: center 50%;
+    background-size: cover;
+}
+.wave-header {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave-header svg {
+    position: relative;
+    display: block;
+    width: calc(191% + 1.3px);
+    height: 208px;
+}
+
+.wave-header .shape-fill {
+    fill: #ffffff;
+}
+
+
+.findmore {
+    position: relative;
+    background: none;
+    border: 1px solid #E1B653;
+    border-radius: 4px;
+    width: 250px;
+    padding: 20px;
+    font-size: 2em;
+    font-style: italic;
+    color: #E1B653;
+    transition: 0.7s;
+    cursor: pointer;
+    z-index: 2;
+}
+.findmore:hover {
+    box-shadow: 0 8px 16px 0 #020202, 0 6px 20px 0 #020202;
+    background-color: #E1B65385;
+    color: #020202;
+}
+
+
+.motto-container {
+    margin-left: 10%;
+}
+.motto {
+    max-width: 350px;
+}
+.motto-text {
+    font-family: 'Caveat', cursive;
+    font-size: 3.2em;
+    color: #f7c553;
+    transition: 0.5s;
+}
+@media (max-width: 1025px) {
+    .motto {
+        max-width: 230px;
+    }
+    .motto-text {
+        font-size: 2.7em;
+    }
+    .findmore {
+        font-size: 1.5em;
+        width: 200px;
+    }
+}

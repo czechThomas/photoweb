@@ -1,0 +1,77 @@
+.Contact-div {
+    padding-top: 0px;
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+.infoAboutPhoto {
+    text-align: center;
+    font-size: 1.5em;
+}
+.contact-form {
+    text-align: center;
+    padding-bottom: 40px;
+}
+.contactMe {
+    position: relative;
+    background: none;
+    border: 1px solid black;
+    height: 90px;
+    border-radius: 4px;
+    padding: 20px;
+    font-size: 2em;
+    font-style: italic;
+    transition: 0.7s;
+    cursor: pointer;
+    z-index: 2;
+}
+.contactMe:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* Kontaktní formulář */
+.contact-form{
+    max-width: 600px;
+    min-height: 500px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  
+  .contact-form-text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 16px 0;
+    border: 1px solid #000000;
+    background: #ffffff;
+    padding: 20px 20px;
+    outline: none;
+    color: #000000;
+    transition: 0.5s;
+  }
+  .contact-form-text:focus{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  textarea.contact-form-text{
+    resize: none;
+    height: 120px;
+  }
+  .contact-form-btn{
+    float: right;
+    border: 1px solid #000000;
+    background: #E1B653;
+    color: #000000;
+    padding: 12px 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  .contact-form-btn:hover{
+    background: #ffffff;
+    color:#000000;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .send-btn{
+    font-size: 1.5em;
+  }

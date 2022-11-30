@@ -1,0 +1,46 @@
+.MainDiv {
+    min-height: 500px;
+    max-width: 1100px;
+    padding: 0px 0px 100px 0px;
+    margin: auto;
+    text-align: center;
+}
+.NameOfTitle {
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+}
+.NameOfTitle:before {
+    border-top: 2px solid #000000;
+    content:"";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%; left: 0; right: 0; bottom: 0;
+    width: 80%;
+    z-index: -1;
+}
+.bgline {
+    background-color: white;
+    padding: 0 15px;
+}
+.portfolioDiv {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-items: center;
+    gap: 20px;
+    padding-top: 30px;
+}
+#photo {
+    transition: 2s;
+}
+@media (max-width: 1025px) {
+    .NameOfTitle {
+        font-size: 1.5em;
+    }  
+}
+
+@media (max-width: 805px) {
+    .MainDiv {
+        max-width: 550px;
+    } 
+}

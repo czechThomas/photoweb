@@ -1,0 +1,65 @@
+.footersection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 200px;
+    padding: 100px 5vw;
+}
+.dark {
+    background: #262626;
+    color: white;
+}
+.wave-down {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave-down svg {
+    position: relative;
+    display: block;
+    width: calc(191% + 1.3px);
+    height: 168px;
+}
+
+.wave-down .shape-fill {
+    fill: #ffffff;
+}
+.up{
+    text-decoration: none;
+    color: #ffffff;
+}
+.signature{
+    background-color: #262626;
+    padding-bottom: 20px;
+}
+.signature a {
+    color: #ffffff94;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* NOVE CSS
+.footersection {
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.dark {
+    background-color: #020202;
+}
+.footer-bar a{
+    color: white;
+    text-decoration: none;
+}
+.social-media {
+    color: #ffffff;
+} */
