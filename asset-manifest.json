@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/czechThomas/Photoweb/static/css/main.19f9164e.css",
-    "main.js": "/czechThomas/Photoweb/static/js/main.b8045129.js",
-    "static/js/787.cad1585c.chunk.js": "/czechThomas/Photoweb/static/js/787.cad1585c.chunk.js",
-    "static/media/295518001___n.jpg": "/czechThomas/Photoweb/static/media/295518001_5614912521874132_9026797892846284757_n.7b8b1629d0cf6c32360d.jpg",
-    "index.html": "/czechThomas/Photoweb/index.html",
-    "main.19f9164e.css.map": "/czechThomas/Photoweb/static/css/main.19f9164e.css.map",
-    "main.b8045129.js.map": "/czechThomas/Photoweb/static/js/main.b8045129.js.map",
-    "787.cad1585c.chunk.js.map": "/czechThomas/Photoweb/static/js/787.cad1585c.chunk.js.map"
+    "main.css": "/photoweb/static/css/main.fa2bc87b.css",
+    "main.js": "/photoweb/static/js/main.82991915.js",
+    "static/js/787.cad1585c.chunk.js": "/photoweb/static/js/787.cad1585c.chunk.js",
+    "static/media/295518001___n.jpg": "/photoweb/static/media/295518001_5614912521874132_9026797892846284757_n.7b8b1629d0cf6c32360d.jpg",
+    "index.html": "/photoweb/index.html",
+    "main.fa2bc87b.css.map": "/photoweb/static/css/main.fa2bc87b.css.map",
+    "main.82991915.js.map": "/photoweb/static/js/main.82991915.js.map",
+    "787.cad1585c.chunk.js.map": "/photoweb/static/js/787.cad1585c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19f9164e.css",
-    "static/js/main.b8045129.js"
+    "static/css/main.fa2bc87b.css",
+    "static/js/main.82991915.js"
   ]
 }
